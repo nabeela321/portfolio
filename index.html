@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nabeela K | Full Stack Developer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo">NK<span class="logo-dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#certifications">Certifications</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-content">
+      <div class="hero-left">
+        <div class="hero-badge">
+          <span class="badge-dot"></span>
+          <span>Open to opportunities</span>
+        </div>
+        <p class="hero-greeting">Hello, I'm</p>
+        <h1 class="hero-name">Nabeela<br><span class="name-highlight">Kavungakandi</span></h1>
+        <div class="hero-role">
+          <span class="mono">&lt;</span>
+          <span id="typed-text">Full Stack Developer</span>
+          <span class="cursor-blink">|</span>
+          <span class="mono">/&gt;</span>
+        </div>
+        <p class="hero-desc">
+          B.Tech CSE Graduate · Blockchain Enthusiast · Computer Vision Explorer.<br>
+          I build end-to-end web applications and decentralized solutions that solve real-world problems.
+        </p>
+        <div class="hero-actions">
+          <a href="#projects" class="btn-primary">View My Work</a>
+          <a href="#contact" class="btn-ghost">Let's Talk</a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/nabeela-k" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="mailto:nabeelatrp@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+917306080669" aria-label="Phone"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+      <div class="hero-right">
+        <div class="profile-card">
+          <div class="profile-avatar">
+             <img src="assets/photo.jpg" alt="Nabeela" 
+            <div class="avatar-initials">NK</div>
+          </div>
+          <div class="profile-info">
+            <p class="profile-name">Nabeela K</p>
+            <p class="profile-sub mono">Full Stack · Blockchain</p>
+          </div>
+          <div class="profile-stats">
+            <div class="pstat">
+              <span class="pstat-num">4+</span>
+              <span class="pstat-label">Projects</span>
+            </div>
+            <div class="pstat-divider"></div>
+            <div class="pstat">
+              <span class="pstat-num">3</span>
+              <span class="pstat-label">Certs</span>
+            </div>
+            <div class="pstat-divider"></div>
+            <div class="pstat">
+              <span class="pstat-num">97.4%</span>
+              <span class="pstat-label">Class XII</span>
+            </div>
+          </div>
+          <div class="profile-tags">
+            <span class="ptag">Ethereum</span>
+            <span class="ptag">React</span>
+            <span class="ptag">Python</span>
+            <span class="ptag">Node.js</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span class="mono">scroll</span>
+      <i class="fas fa-arrow-down"></i>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-label mono">// 01. about</div>
+      <h2 class="section-title">Who I Am</h2>
+      <div class="about-grid">
+        <div class="about-text">
+          <p>I'm a passionate Full Stack Developer and Blockchain Enthusiast from Kerala, India. I graduated with a B.Tech in Computer Science from MES College of Engineering, Kuttipuram in 2025.</p>
+          <p>My strongest project — <strong>Agrochain</strong> — is a blockchain-based agricultural supply chain platform I built for my final year, ensuring transparency from farmer to consumer using Ethereum smart contracts and Solidity.</p>
+          <p>I enjoy building things that sit at the intersection of clean UI and powerful backend logic. From gesture-controlled virtual boards to full-stack rental systems, I like solving real problems with code.</p>
+          <div class="about-contact-row">
+            <span class="mono contact-chip"><i class="fas fa-envelope"></i> nabeelatrp@gmail.com</span>
+            <span class="mono contact-chip"><i class="fas fa-phone"></i> +91 7306080669</span>
+            <span class="mono contact-chip"><i class="fas fa-map-marker-alt"></i> Kerala, India</span>
+          </div>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">🎓</div>
+            <div>
+              <div class="highlight-title">B.Tech CSE</div>
+              <div class="highlight-sub">MES College of Engineering · CGPA 7.0</div>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">🔗</div>
+            <div>
+              <div class="highlight-title">Blockchain Dev</div>
+              <div class="highlight-sub">Ethereum · Solidity · Web3.js · Smart Contracts</div>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">🌐</div>
+            <div>
+              <div class="highlight-title">Full Stack</div>
+              <div class="highlight-sub">React · Node.js · Express · MySQL · PHP</div>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">👁️</div>
+            <div>
+              <div class="highlight-title">Computer Vision</div>
+              <div class="highlight-sub">Python · OpenCV · MediaPipe</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section alt-bg">
+    <div class="container">
+      <div class="section-label mono">// 02. skills</div>
+      <h2 class="section-title">Tech Stack</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-code skill-icon"></i>
+            <span class="skill-card-title mono">Languages</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">Python</span>
+            <span class="stag">JavaScript</span>
+            <span class="stag">HTML5</span>
+            <span class="stag">CSS3</span>
+            <span class="stag">Solidity</span>
+            <span class="stag">PHP</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-layer-group skill-icon"></i>
+            <span class="skill-card-title mono">Frontend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">React.js</span>
+            <span class="stag">Tailwind CSS</span>
+            <span class="stag">Bootstrap</span>
+            <span class="stag">Responsive Design</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-server skill-icon"></i>
+            <span class="skill-card-title mono">Backend</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">Node.js</span>
+            <span class="stag">Express.js</span>
+            <span class="stag">REST API</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-database skill-icon"></i>
+            <span class="skill-card-title mono">Database</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">MySQL</span>
+            <span class="stag">Ganache</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-link skill-icon"></i>
+            <span class="skill-card-title mono">Blockchain</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">Ethereum</span>
+            <span class="stag">Solidity</span>
+            <span class="stag">Web3.js</span>
+            <span class="stag">Ganache</span>
+            <span class="stag">MetaMask</span>
+            <span class="stag">Smart Contracts</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-eye skill-icon"></i>
+            <span class="skill-card-title mono">CV / AI</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">OpenCV</span>
+            <span class="stag">MediaPipe</span>
+            <span class="stag">Gesture Recognition</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-tools skill-icon"></i>
+            <span class="skill-card-title mono">Tools</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">Git</span>
+            <span class="stag">GitHub</span>
+            <span class="stag">VS Code</span>
+            <span class="stag">Postman</span>
+            <span class="stag">Overleaf</span>
+          </div>
+        </div>
+        <div class="skill-card reveal">
+          <div class="skill-card-header">
+            <i class="fas fa-users skill-icon"></i>
+            <span class="skill-card-title mono">Soft Skills</span>
+          </div>
+          <div class="skill-tags">
+            <span class="stag">Problem Solving</span>
+            <span class="stag">Teamwork</span>
+            <span class="stag">Communication</span>
+            <span class="stag">Time Management</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-label mono">// 03. projects</div>
+      <h2 class="section-title">What I've Built</h2>
+      <div class="projects-grid">
+
+        <div class="project-card featured reveal">
+          <div class="project-top">
+            <div class="project-emoji">🌾</div>
+            <div class="project-meta">
+              <span class="project-year mono">2024 – 2025</span>
+              <span class="project-badge">Final Year</span>
+            </div>
+          </div>
+          <h3 class="project-name">Agrochain</h3>
+          <p class="project-desc">Blockchain-based agricultural supply chain platform ensuring end-to-end transparency from farmer to consumer using Ethereum smart contracts.</p>
+          <ul class="project-points">
+            <li>Deployed Solidity smart contracts on Ethereum for tamper-proof product tracking</li>
+            <li>Integrated Web3.js + Node.js backend with Ganache local blockchain</li>
+            <li>Role-based access: farmers, distributors, consumers via MetaMask wallet auth</li>
+            <li>Validated with 20+ test transactions — zero data tampering</li>
+          </ul>
+          <div class="project-footer">
+            <div class="project-stack">
+              <span>Python</span><span>Solidity</span><span>Web3.js</span>
+              <span>Node.js</span><span>Ganache</span><span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nabeela-k" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-emoji">🚗</div>
+            <div class="project-meta">
+              <span class="project-year mono">2023</span>
+            </div>
+          </div>
+          <h3 class="project-name">Rental Car System</h3>
+          <p class="project-desc">Full-stack car rental web app with booking management, authentication & real-time updates.</p>
+          <ul class="project-points">
+            <li>Normalized MySQL database for cars, users & bookings</li>
+            <li>PHP server-side form validation, sessions & CRUD</li>
+            <li>Responsive UI with real-time booking status</li>
+          </ul>
+          <div class="project-footer">
+            <div class="project-stack">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nabeela-k" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-emoji">✋</div>
+            <div class="project-meta">
+              <span class="project-year mono">2023</span>
+            </div>
+          </div>
+          <h3 class="project-name">Gesture Teaching Board</h3>
+          <p class="project-desc">Gesture-controlled virtual board — draw and write in real time without any physical device.</p>
+          <ul class="project-points">
+            <li>MediaPipe 21-point model with 90%+ gesture accuracy</li>
+            <li>Colour picker, eraser & clear — all via hand gestures</li>
+            <li>Real-time processing with OpenCV video stream</li>
+          </ul>
+          <div class="project-footer">
+            <div class="project-stack">
+              <span>Python</span><span>OpenCV</span><span>MediaPipe</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nabeela-k" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card reveal">
+          <div class="project-top">
+            <div class="project-emoji">💼</div>
+            <div class="project-meta">
+              <span class="project-year mono">2024</span>
+            </div>
+          </div>
+          <h3 class="project-name">Portfolio Website</h3>
+          <p class="project-desc">Personal portfolio with React.js & Tailwind CSS showcasing projects, skills & certifications.</p>
+          <ul class="project-points">
+            <li>Component-based architecture with React hooks</li>
+            <li>Fully responsive across desktop, tablet & mobile</li>
+            <li>Smooth UI transitions and clean modern design</li>
+          </ul>
+          <div class="project-footer">
+            <div class="project-stack">
+              <span>React.js</span><span>Tailwind CSS</span><span>JavaScript</span>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/nabeela-k" target="_blank"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section id="education" class="section alt-bg">
+    <div class="container">
+      <div class="section-label mono">// 04. education</div>
+      <h2 class="section-title">Academic Journey</h2>
+      <div class="edu-timeline">
+        <div class="edu-item reveal">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+            <div class="edu-line"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-header">
+              <div>
+                <h3 class="edu-degree">B.Tech — Computer Science & Engineering</h3>
+                <p class="edu-school">MES College of Engineering, Kuttipuram · APJ Abdul Kalam Technological University</p>
+              </div>
+              <span class="edu-year mono">2021 – 2025</span>
+            </div>
+            <div class="edu-details">
+              <span class="edu-chip">CGPA: 7.0 / 10.0</span>
+              <span class="edu-chip highlight">Final Year: Agrochain Blockchain Platform</span>
+            </div>
+            <p class="edu-courses mono">Data Structures · Algorithms · DBMS · Computer Networks · OS · Blockchain · Web Tech</p>
+          </div>
+        </div>
+        <div class="edu-item reveal">
+          <div class="edu-marker">
+            <div class="edu-dot"></div>
+          </div>
+          <div class="edu-card">
+            <div class="edu-header">
+              <div>
+                <h3 class="edu-degree">Higher Secondary — Class XII</h3>
+                <p class="edu-school">CHMHSS Pookolathur · Kerala Board of Public Examination</p>
+              </div>
+              <span class="edu-year mono">2020 – 2021</span>
+            </div>
+            <div class="edu-details">
+              <span class="edu-chip highlight">97.4% — Top Scorer</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-label mono">// 05. certifications</div>
+      <h2 class="section-title">Credentials</h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal">
+          <div class="cert-badge">🌐</div>
+          <div class="cert-content">
+            <h3 class="cert-name">Web Development Bootcamp</h3>
+            <p class="cert-issuer">Pace Lab Kochi · 2-week intensive</p>
+            <span class="cert-year mono">2024</span>
+          </div>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">🔐</div>
+          <div class="cert-content">
+            <h3 class="cert-name">Ethical Hacking</h3>
+            <p class="cert-issuer">Coursera · Certified Course Completion</p>
+            <span class="cert-year mono">2024</span>
+          </div>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i></div>
+        </div>
+        <div class="cert-card reveal">
+          <div class="cert-badge">🤖</div>
+          <div class="cert-content">
+            <h3 class="cert-name">Artificial Intelligence</h3>
+            <p class="cert-issuer">Coursera · Certified Course Completion</p>
+            <span class="cert-year mono">2024</span>
+          </div>
+          <div class="cert-verified"><i class="fas fa-check-circle"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section alt-bg">
+    <div class="container">
+      <div class="section-label mono">// 06. contact</div>
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-grid">
+        <div class="contact-left">
+          <p class="contact-intro">I'm actively looking for opportunities. If you have a project, a role, or just want to connect — feel free to reach out!</p>
+          <div class="contact-links">
+            <a href="mailto:nabeelatrp@gmail.com" class="contact-link">
+              <span class="contact-link-icon"><i class="fas fa-envelope"></i></span>
+              <div>
+                <span class="contact-link-label mono">Email</span>
+                <span class="contact-link-val">nabeelatrp@gmail.com</span>
+              </div>
+            </a>
+            <a href="tel:+917306080669" class="contact-link">
+              <span class="contact-link-icon"><i class="fas fa-phone"></i></span>
+              <div>
+                <span class="contact-link-label mono">Phone</span>
+                <span class="contact-link-val">+91 7306080669</span>
+              </div>
+            </a>
+            <a href="https://github.com/nabeela-k" target="_blank" class="contact-link">
+              <span class="contact-link-icon"><i class="fab fa-github"></i></span>
+              <div>
+                <span class="contact-link-label mono">GitHub</span>
+                <span class="contact-link-val">github.com/nabeela-k</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-right">
+          <form class="contact-form" id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="mono">name</label>
+                <input type="text" placeholder="Your name" required />
+              </div>
+              <div class="form-group">
+                <label class="mono">email</label>
+                <input type="email" placeholder="your@email.com" required />
+              </div>
+            </div>
+            <div class="form-group">
+              <label class="mono">subject</label>
+              <input type="text" placeholder="What's this about?" />
+            </div>
+            <div class="form-group">
+              <label class="mono">message</label>
+              <textarea placeholder="Tell me more..." rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <a href="#home" class="nav-logo footer-logo">NK<span class="logo-dot">.</span></a>
+      <p class="footer-copy mono">© 2025 Nabeela Kavungakandi · Built with passion</p>
+      <div class="footer-socials">
+        <a href="mailto:nabeelatrp@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+        <a href="https://github.com/nabeela-k" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

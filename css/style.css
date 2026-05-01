@@ -383,7 +383,7 @@ body {
   border: 1px solid var(--border);
   border-radius: 20px;
   padding: 2rem;
-  width: 290px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -402,16 +402,22 @@ body {
 }
 
 .profile-avatar {
-  width: 120px; height: 120px;
+  width: 220px; height: 260px;
   border-radius: 16px;
   overflow: hidden;
   background: var(--bg3);
   border: 2px solid var(--border-lt);
+  position: relative;
 }
 
 .profile-avatar img {
+  position: absolute;
+  top: 0; left: 0;
   width: 100%; height: 100%;
   object-fit: cover;
+  object-position: center;
+  display: block;
+  
 }
 
 .avatar-initials {
